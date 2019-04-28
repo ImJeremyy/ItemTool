@@ -1,0 +1,11 @@
+name: ItemTool
+version: 1.0
+main: me.markiscool.itemtool.ItemToolPlugin
+api-version: 1.13
+author: MarkIsCool
+description: Easily edit item's display name, lore, enchantments, and more!
+commands:
+  itemtool:
+    usage: /<command>
+    description: Run this command while holding the item you want to edit
+    aliases: [it]

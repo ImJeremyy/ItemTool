@@ -1,6 +1,7 @@
 package me.markiscool.itemtool.constants;
 
 import org.bukkit.permissions.Permission;
+import org.bukkit.permissions.PermissionDefault;
 
 public class Perm {
 
@@ -8,6 +9,7 @@ public class Perm {
 
     static {
         ITEMTOOL_COMMAND = new Permission("itemtool.itemtool");
+        ITEMTOOL_COMMAND.setDefault(PermissionDefault.OP);
     }
 
 }
